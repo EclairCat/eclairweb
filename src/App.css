@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color:rgb(95, 129, 145);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.na_color_white {
+  color: white;
+}
+
+.App-Bg{
+  background-color: rgb(95, 129, 145);
+  color: white;
+  display: flex;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Experience-Bloc {
+  border: black;
+  background-color: white;
+  margin: 5%;
+  justify-content: center;
+  border-radius: 20px;
+  color: black;
+}
+
+.Title {
+  padding: 2%;
+  border:white;
+  border-style: none none solid none ;
+  
+}
+
+.img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.logo {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.RS_links{
+  display: flex;
+  align-items: center;
+  border: black;
+  background-color: white;
+  padding: 5%;
+  border-radius: 20px;
+  
+}
+
+.link_left_margin{
+  margin-left: 5%;
+}
+
+.little_title  {
+  font-weight: bold;
+  border-style: none none solid none ;
+
+}
+
