@@ -29,51 +29,43 @@ class Experience extends Component {
     render() {
         return (
             <div className="App-Bg">
-                <Container>
+                <Container fluid className="Experience-Bloc1">
                     <Row className="Title">
-                        <Col><h2>Mes Expériences Profesionelles</h2></Col>
+                        <Col><h1>Mes Expériences Profesionelles</h1></Col>
                     </Row>
-                    <Container className="Experience-Bloc">
-                        <Row>
 
-                            <Col><h2>Février à Aout 2020</h2></Col>
 
-                        </Row>
-                        <Row>
-                            <Col> Stage de 6 mois</Col>
 
-                        </Row>
-                        <Row>
-                            <Col><h5>6Solution</h5></Col>
-
-                        </Row>
-                        <Row>
-                            <Col><img src={Six_solution} width="20%"/></Col>
-                        </Row>
-                        <Row>
-                            <Col> Meknes - Maroc</Col>
-
-                        </Row>
-                        <Row>
-                            <Col><h2>Era-Auto</h2></Col>
-                        </Row>
-                        <Row>
-                            <Col><img src={Era_auto} width="20%"/></Col>
-                        </Row>
+                    <Container fluid>
                         <Row>
                             <Col>
-                            Era-auto est une chaine de magasin en ligne qui vend des pièces détacher d'automobile de toute marque. elle est en relations avec plusieurs fournisseurs, distributeurs. elle a pour projet de créer une nouvelle plateforme de magasin en ligne. Conception et développement d’une plateforme web multilangue de vente de pièce détachée d’automobile basée sur des API.
+                                <img src={Six_solution} width="50%" />
+                            </Col>
+                            <Col>
+                                Stage de 6 mois de  <b>Février à Aout 2020</b> <br/>
+                                <i>Meknes - Maroc</i>
+
                             </Col>
                         </Row>
-                        <Container>
-                            <Row>
-                                <Col><h2>Taches Réalisé</h2></Col>
-                            </Row>
-                            <Row>
-                                <Col>
+                    </Container>
+
+
+
+                    <Container fluid className="Experience-Bloc1">
+                        <Row>
+                            <Col>
+                                <img src={Era_auto} width="50%" />
+                            </Col>
+                            <Col>
+                                Era-auto est une chaine russe de magasin en ligne qui vend des pièces détachées d'automobiles de toute marque en Russie. son objectif est de conquérir le marché international. Dans ce but, notre équipe lui a conçu une plateforme moderne.
+
+                               
+                                    <h3>Taches Réalisées :</h3>
+                                
+                                
                                     <list>
                                         <li>Analyse et Conception des besoins
-                                            fonctionnels et techniques
+                                        fonctionnels et techniques
                                         </li>
                                         <li>
                                             Choix des outils de développement
@@ -83,200 +75,133 @@ class Experience extends Component {
                                             administrateur.
                                         </li>
                                     </list>
-                                </Col>
-                            </Row>
-                        </Container>
-                        <Container>
-                            <Row>
-                                <Col><h2>Technologie</h2></Col>
-                            </Row>
-                            <Row>
-                                <Col>                              
-                                    ReactJs, NextJs, NodeJs, ExpressJs, MySQL, AWS (Amazon Web Service), Bootstrap,Github                                    
-                                </Col>
-                            </Row>
-                        </Container>
-
-                    </Container>
-
-                    <Container className="Experience-Bloc">
-                        <Row>
-
-                            <Col><h2>Janvier à Février 2020</h2></Col>
-
-                        </Row>
-                        
-                        <Row>
-                            <Col><h5>UHA 4.0</h5></Col>
-
-                        </Row>
-                        <Row>
-                            <Col>Mulhouse - France</Col>
-
-                        </Row>
-                        <Row>
-                            <Col><h2>EdCampus</h2></Col>
-                        </Row>                       
-                        <Row>
-                            <Col>
-                            Projet en groupe. Amélioration d’une plateforme web de gestion de projet.
+                                
+                                
+                                    <h3>Technologie</h3>
+                                
+                                                                   
+                                    ReactJs, NextJs, NodeJs, ExpressJs, MySQL, AWS (Amazon Web Service), Bootstrap, Github                               
+                                
                             </Col>
                         </Row>
-                        <Container>
-                            <Row>
-                                <Col><h2>Taches Réalisé</h2></Col>
-                            </Row>
-                            <Row>
-                                <Col>
-                                    <list>
-                                        <li>Participation à l’analyse des besoins
-                                        </li>
-                                        <li>
-                                        Détection et résolutions des problèmes techniques
-                                        </li>
-                                        <li>
-                                        Méthodologie SCRUM
-                                        </li>
-                                        <li>
-                                        Chef SCRUM
-                                        </li>
-                                        <li>
-                                        Suivi de l’équipe du bon déroulement et de l’avancement du projet.
-                                        </li>                                        
-                                    </list>
-                                </Col>
-                            </Row>
-                        </Container>
-                        <Container>
-                            <Row>
-                                <Col><h2>Technologie</h2></Col>
-                            </Row>
-                            <Row>
-                                <Col>                              
-                                    AngularJs, PhP, Docker, Gitlab, MongoDB
-                                </Col>
-                            </Row>
-                        </Container>
                     </Container>
 
-
-
-                    <Container className="Experience-Bloc">
-                        <Row>
-
-                            <Col><h2>Novembre à Décembre 2019</h2></Col>
-
-                        </Row>
-                        
-                        <Row>
-                            <Col><h5>UHA 4.0</h5></Col>
-
-                        </Row>
-                        <Row>
-                            <Col>Mulhouse - France</Col>
-
-                        </Row>
-                        <Row>
-                            <Col><h2>Badgeuse</h2></Col>
-                        </Row>                       
+                    <Container fluid className="Experience-Bloc1">
                         <Row>
                             <Col>
-                            Projet en groupe. Amélioration d’une plateforme web de la gestion de la présence des étudiants.
+                                <h2>Tache en Cours :  </h2>
+                                <img src={Era_auto} width="50%" />
+                            </Col>
+                            <Col>
+                                À la fin de mon stage, la société <b>6solution </b>  m’a contacté pour aouter la fonctionnalité multi-langue à la plateforme russe Era - auto . Je suis très honoré de leur confiance.
                             </Col>
                         </Row>
-                        <Container>
-                            <Row>
-                                <Col><h2>Taches Réalisé</h2></Col>
-                            </Row>
-                            <Row>
-                                <Col>
-                                    <list>
+                    </Container>
+
+                    <Container fluid className="Experience-Bloc1">
+                        <Row>
+                            <Col>
+                                <h1>UHA 4.0</h1>
+                                <h2>Edcampus</h2>
+                                Janvier à Février 2020              
+                            </Col>
+                            <Col>
+                                Projet en groupe. Amélioration d’une plateforme web de gestion de projet. <br/>
+                                <i>Mulhouse - France</i>
+                                
+                                <h3>Taches Réalisé</h3>
+
+                                <list>
                                         <li>Participation à l’analyse des besoins
                                         </li>
                                         <li>
                                             Détection et résolutions des problèmes techniques
-                                        </li>                                       
+                                        </li>
+                                        <li>
+                                            Méthodologie SCRUM
+                                        </li>
+                                        <li>
+                                            Chef SCRUM
+                                        </li>
+                                        <li>
+                                            Suivi de l’équipe du bon déroulement et de l’avancement du projet.
+                                        </li>
+                                </list>
+
+                                <h3>Technologie</h3>
+
+                                AngularJs, PhP, Docker, Gitlab, MongoDB
+                            </Col>
+                        </Row>
+                    </Container>
+
+                    <Container fluid className="Experience-Bloc1">
+                        <Row>
+                            <Col>
+                                <h1>UHA 4.0</h1>
+                                <h2>Badgeuse</h2>
+                                Novembre à Décembre 2019             
+                            </Col>
+                            <Col>
+                                Projet en groupe. Amélioration d’une plateforme web de la gestion de la présence des étudiants. <br/>
+                                <i>Mulhouse - France</i>
+                                
+                                <h3>Taches Réalisé</h3>
+
+                                <list>
+                                        <li>Participation à l’analyse des besoins
+                                        </li>
+                                        <li>
+                                            Détection et résolutions des problèmes techniques
+                                        </li>
                                         <li>
                                             Ajout de nouvelle fonctionalités
                                         </li>
                                         <li>
                                             Participation à la Méthodologie SCRUM
-                                        </li>                                        
+                                        </li>
                                     </list>
-                                </Col>
-                            </Row>
-                        </Container>
-                        <Container>
-                            <Row>
-                                <Col><h2>Technologie</h2></Col>
-                            </Row>
-                            <Row>
-                                <Col>                              
-                                    Angular, NodeJs, ExpressJs, Gitlab, MySql
-                                </Col>
-                            </Row>
-                        </Container>
-                    </Container>
 
-                    <Container className="Experience-Bloc">
-                        <Row>
+                                <h3>Technologie</h3>
 
-                            <Col><h2>Mars à Septembre 2019</h2></Col>
-
-                        </Row>                        
-                        <Row>
-                            <Col> Stage de 6 mois</Col>
-
-                        </Row>
-                        <Row>
-                            <Col><h5>6Solution</h5></Col>
-
-                        </Row>
-                        <Row>
-                            <Col><img src={Six_solution} width="20%"/></Col>
-                        </Row>
-                        <Row>
-                            <Col> Meknes - Maroc</Col>
-
-                        </Row>
-                        <Row>
-                            <Col><h2>SoluDoc</h2></Col>
-                        </Row>                       
-                        <Row>
-                            <Col>
-                                Projet d’une plateforme web de gestion de rendezvous médicaux.
+                                Angular, NodeJs, ExpressJs, Gitlab, MySql
                             </Col>
                         </Row>
-                        <Container>
-                            <Row>
-                                <Col><h2>Taches Réalisé</h2></Col>
-                            </Row>
-                            <Row>
-                                <Col>
-                                    <list>
+                    </Container>
+
+                    <Container fluid className="Experience-Bloc1">
+                        <Row>
+                            <Col>
+                                <img src={Six_solution} width="50%" />
+                            </Col>
+                            <Col>
+                                Stage de 6 mois de  <b>Mars à Septembre 2019</b> <br/>
+                                <i>Meknes - Maroc</i>
+
+                                Projet d’une plateforme web de gestion de rendezvous médicaux.
+
+                                <h3>Taches Réalisé</h3>
+
+                                <list>
                                         <li>Analyse des besoins fonctionnels et technique
                                         </li>
                                         <li>
                                             Choix des outils de développement
-                                        </li>                                       
+                                        </li>
                                         <li>
                                             Conception et Développement de la plateforme Web
-                                        </li>                                                                              
-                                    </list>
-                                </Col>
-                            </Row>
-                        </Container>
-                        <Container>
-                            <Row>
-                                <Col><h2>Technologie</h2></Col>
-                            </Row>
-                            <Row>
-                                <Col>                              
-                                    Angular, NodeJs, ExpressJs, Gitlab, MySql
-                                </Col>
-                            </Row>
-                        </Container>
+                                        </li>
+                                </list>
+
+
+                                <h3>Technologie</h3>
+
+                                Angular, NodeJs, ExpressJs, Gitlab, MySql
+                            </Col>
+                        </Row>
                     </Container>
+
+                    
                 </Container>
             </div>
         );

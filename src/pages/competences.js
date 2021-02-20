@@ -1,6 +1,10 @@
-import eclair from '../img/yuy.png';
-import {Button, Alert, Row, Col, Container} from 'react-bootstrap';
+import {Button, Alert, Row, Col, Container, Badge} from 'react-bootstrap';
 import React, { Component, Redirect } from 'react';
+
+import logo_code from '../img/logo_code.png';
+import logo_mobile from '../img/mobile_logo.png';
+import logo_web from '../img/web_logo.png';
+import logo_bdd from '../img/bdd_logo.png';
 
 //Import LOGO
 import sql_logo from '../img/Tech/Sql_logo.png';
@@ -70,168 +74,50 @@ class WIP extends Component {
 
     return (
       <div className="App-Bg">
-        <Container className="">
-        <Row>
+        <Container fluid className="Competence_bloc">
+        <Row className="Title">
           <Col>
-            <h1 className="Title">Mes Compétences</h1>
+            <h1>Mes Compétences</h1>
           </Col>   
         </Row>
 
+        <Row className="competence_ligne">
 
-        <Container className="Experience-Bloc">
-        <Row>
           <Col>
-            <h3 className="little_title">Programmation / Structuration De Données</h3>
-          </Col>   
-        </Row> 
-        <Row>
-          <Col>
-              <img className="logo" src={sql_logo}/>
+          <img className="logo" src={logo_code}/>
+          <h4>Programmation / Structuration De Données</h4>
+          <h5><Badge variant="secondary">SQL</Badge><Badge variant="secondary">.NET</Badge><Badge variant="secondary">Python</Badge>
+          <Badge variant="secondary">C</Badge><Badge variant="secondary">C#</Badge><Badge variant="secondary">C++</Badge><Badge variant="secondary">Shell</Badge>
+          <Badge variant="secondary">JAVA</Badge></h5>
+          
           </Col>
-          <Col>
-            <img className="logo" src={visual_studio_logo}/>
-          </Col>          
-          <Col>
-            <img className="logo" src={python_logo}/>
-          </Col>
-          <Col>
-            <img className="logo" src={c_logo}/>
-          </Col>
-        </Row>
-        <Row>
-          <Col>
-            <img className="logo" src={c_sharp_logo}/>
-          </Col>
-          <Col>
-            <img className="logo" src={c_plus_plus_logo}/>
-          </Col>          
-          <Col>
-            <img className="logo" src={bash_logo}/>
-          </Col>
-          <Col>
-            <img className="logo" src={java_logo}/>
-          </Col>        
-        </Row>
-        </Container>
-        <Container className="Experience-Bloc">
-        <Row>
-          <Col>
-            <h3 className="little_title">Développement Mobile</h3>
-          </Col>   
-        </Row>
-        <Row>          
-          <Col>
-            <img className="logo" src={ionic_logo}/>
-          </Col>          
-          <Col>
-            <img className="logo" src={react_native_logo}/>
-          </Col>
-          <Col>
-            
-          </Col>
-          <Col>
-            
-          </Col>     
-        </Row>
-        </Container>
-        <Container className="Experience-Bloc">
-        <Row>
-          <Col>
-            <h3 className="little_title">Développement Web</h3>
-          </Col>   
-        </Row>
-        <Row>
-          <Col>
-              <img className="logo" src={html_logo}/>
-          </Col>
-          <Col>
-            <img className="logo" src={css_logo}/>
-          </Col>          
-          <Col>
-            <img className="logo" src={js_logo}/>
-          </Col>
-          <Col>
-            <img className="logo" src={php_logo}/>
-          </Col>
-        </Row>
-        </Container>
 
-
-        <Container className="Experience-Bloc">
-        <Row>
           <Col>
-            <h3 className="little_title">Framework Web</h3>
-          </Col>   
-        </Row>
-        <Row>
-          <Col>
-              <img className="logo" src={nodejs_logo}/>
+          <img className="logo" src={logo_mobile}/>
+          <h4>Développement Mobile</h4>
+          <h4><Badge variant="secondary">Ionic</Badge><Badge variant="secondary">React Native</Badge></h4>
           </Col>
-          <Col>
-            <img className="logo" src={angular_logo}/>
-          </Col>          
-          <Col>
-            <img className="logo" src={angularjs_logo}/>
-          </Col>
-          <Col>
-            <img className="logo" src={react_logo}/>
-          </Col>
-        </Row>
-        <Row>
-          <Col>
-              <img className="logo" src={bootstrap_logo}/>
-          </Col>
-          <Col>
-            
-          </Col>          
-          <Col>
-            
-          </Col>
-          <Col>
-            
-          </Col>
-        </Row>
-        </Container>
-
-
-        <Container className="Experience-Bloc">
-        <Row>
-          <Col>
-            <h3 className="little_title">Base De Données</h3>
-          </Col>   
-        </Row>
-
-        <Row>
-          <Col>
-              <img className="logo" src={sql_server_logo}/>
-          </Col>
-          <Col>
-            <img className="logo" src={my_sql_logo}/>
-          </Col>          
-          <Col>
-            <img className="logo" src={oracle_logo}/>
-          </Col>
-          <Col>
-            <img className="logo" src={mongodb_logo}/>
-          </Col>
-        </Row>
-        <Row>
-          <Col>
-              <img className="logo" src={php_my_admin_logo}/>
-          </Col>
-          <Col>
-            
-          </Col>          
-          <Col>
-            
-          </Col>
-          <Col>
-            
-          </Col>
-        </Row>
-        </Container>
-
         
+          <Col>
+          <img className="logo" src={logo_web}/>
+          <h4>Développement Web</h4>
+          <h5><Badge variant="secondary">HTML</Badge><Badge variant="secondary">CSS</Badge><Badge variant="secondary">JS</Badge><Badge variant="secondary">PHP</Badge> <br/>
+         </h5> 
+         <h4>Framework Web</h4>
+          <h5><Badge variant="secondary">NodeJS</Badge><Badge variant="secondary">ReactJS</Badge><Badge variant="secondary">Angular</Badge><Badge variant="secondary">AngularJS</Badge>
+          </h5></Col>
+        </Row>
+
+        <Row>
+
+          <Col>
+          <img className="logo" src={logo_bdd}/>
+          <h4>Base De Données</h4>
+          <h5><Badge variant="secondary">SQL Server</Badge><Badge variant="secondary">MySQL</Badge><Badge variant="secondary">Oracle</Badge>
+          <Badge variant="secondary">MongoDB</Badge><Badge variant="secondary">PHPMYADMIN</Badge></h5>
+          </Col>  
+        </Row>
+
         
         </Container>      
               

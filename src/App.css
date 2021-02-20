@@ -22,29 +22,61 @@
 }
 
 .App-Bg{
-  background-color: rgb(95, 129, 145);
-  color: white;
-  display: flex;
+  background-color: rgb(211, 171, 139);
+  min-height: 100vh;
+  padding-top: 5vh;
 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .Experience-Bloc {
   border: black;
   background-color: white;
-  margin: 5%;
   justify-content: center;
-  border-radius: 20px;
+  text-align: left;
   color: black;
 }
 
+
+
+
+
+.RS_links{
+  display: flex;
+  align-items: center;
+  border: black;
+  background-color: white;
+  padding: 5%;
+  border-radius: 20px;
+  
+}
+
+/* Tools CSS */
+
+
 .Title {
   padding: 2%;
+  margin-bottom: 2vh;
+  background-color: rgb(226, 216, 193);
   border:white;
   border-style: none none solid none ;
+  text-align: left;
+  color: black;
   
+}
+
+.add_line{
+  border: rgb(236, 209, 199);
+  border-style: none none solid none;
+}
+
+.little_title  {
+  font-weight: bold;
+  border-style: none none solid none ;
+
+}
+
+.link_left_margin{
+  margin-left: 5%;
 }
 
 .img {
@@ -57,23 +89,69 @@
   max-height: 100%;
 }
 
-.RS_links{
-  display: flex;
-  align-items: center;
+
+/* Barre de menu */
+
+
+/* PAGE ACCEUIL */
+
+.img_Acceuil {
+  width : 400px;
+  padding: 25px;
+}
+
+.Acceuil_cellule1 {
   border: black;
   background-color: white;
-  padding: 5%;
-  border-radius: 20px;
-  
+  justify-content: center;
+  text-align: left;
+  color: black;  
 }
 
-.link_left_margin{
-  margin-left: 5%;
+.cellule_bas_acceuil{
+  background-color: coral;
 }
 
-.little_title  {
+.linked_in_acceuil {
+  margin: 5px;
+}
+
+.legende_acceuil{
+  justify-content: center;
+  padding: 30px;
+  margin-right: 30px;
+}
+
+.bold_legende {
   font-weight: bold;
-  border-style: none none solid none ;
-
 }
 
+/* Page Experiences */
+
+
+.Experience-Bloc1 {
+  border: black;
+  background-color: white;
+  justify-content: center;
+  text-align: left;
+  color: black;  
+}
+
+/* Compétence */
+
+.logo {
+  width: 150px;
+}
+
+.Competence_bloc {
+
+  border: black;
+  background-color: white;
+  justify-content: center;
+  text-align: center;
+  color: black;  
+}
+
+.competence_ligne{
+  margin-top: 2vh;
+}

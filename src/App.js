@@ -40,20 +40,26 @@ class App extends Component {
 
   }
 
+  /*
+
+  Onglet à remettre après
+  <Nav.Link href="#realisation">Mes Réalisations</Nav.Link>
+  <Nav.Link href="#contact">Me Contacter</Nav.Link>  
+  */
+
 
   render() {
 
     return (
       <div className="App">
-        <Navbar expand="lg">
+        <Navbar expand="lg" className="barre_menu">
           <Navbar.Brand href="#"><img width="100" height="10%" src={Eclair_web_band_logo}/></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
               <Nav.Link class="na_color_white" href="#experience">Mes Experiences</Nav.Link>
               <Nav.Link href="#competence">Mes Compétences</Nav.Link> 
-              <Nav.Link href="#realisation">Mes Réalisations</Nav.Link>
-              <Nav.Link href="#contact">Me Contacter</Nav.Link>   
+              
                          
             </Nav>            
           </Navbar.Collapse>

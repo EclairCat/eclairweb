@@ -27,7 +27,7 @@ class Contact extends Component {
 
   render() {
     return (
-      <div className="App-header">
+      <div className="App-Bg">
         <Container>
           <Row className="Title">
                         <Col><h2>Me Contacter</h2></Col>
