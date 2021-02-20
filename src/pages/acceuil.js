@@ -35,10 +35,10 @@ class Acceuil extends Component {
             <Col ><img src={rb_photo} className="img_Acceuil" /></Col>
             <Col xs="4" sm="6" xl="7" className="legende_acceuil">
               <Row>
-                <Col><h1>Bienvenue!</h1></Col>
+                <Col><h1>Bonjour!</h1></Col>
               </Row>
               <Row>
-                <Col><h1>Je suis <b> Bougedrawi Rabie</b></h1></Col>
+                <Col><h1>Je suis <b className="font_style">Rabie Bougedrawi </b></h1></Col>
               </Row>
               <Row className="add_line">
                 <Col><h4><i> Développeur Informatique </i></h4></Col>

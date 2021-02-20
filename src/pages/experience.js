@@ -35,14 +35,29 @@ class Experience extends Component {
                     </Row>
 
 
+                    <Container fluid className="Experience-Bloc1">
+                        <Row>
+                            <Col>
+                                <h2>Tache en Cours :  </h2>
+                                <a href="https://tyumen.era-auto.ru"><img src={Era_auto} width="50%" /> </a>
+                            </Col>
+                            <Col>
+                                À la fin de mon stage, la société <b>6solution </b>  m’a contacté pour aouter la fonctionnalité multi-langue à la plateforme russe Era - auto . Je suis très honoré de leur confiance.
+                            </Col>
+                        </Row>
+                    </Container>
+
+                    <p className="add_line"/>
+
+
 
                     <Container fluid>
                         <Row>
                             <Col>
-                                <img src={Six_solution} width="50%" />
+                            <a href="https://6solutions.com"><img src={Six_solution} width="50%" /> </a>                             
                             </Col>
                             <Col>
-                                Stage de 6 mois de  <b>Février à Aout 2020</b> <br/>
+                                Stage de 6 mois <br/>
                                 <i>Meknes - Maroc</i>
 
                             </Col>
@@ -54,7 +69,8 @@ class Experience extends Component {
                     <Container fluid className="Experience-Bloc1">
                         <Row>
                             <Col>
-                                <img src={Era_auto} width="50%" />
+                            <a href="https://tyumen.era-auto.ru"><img src={Era_auto} width="50%" /></a> <br/>
+                                Février à Aout 2020
                             </Col>
                             <Col>
                                 Era-auto est une chaine russe de magasin en ligne qui vend des pièces détachées d'automobiles de toute marque en Russie. son objectif est de conquérir le marché international. Dans ce but, notre équipe lui a conçu une plateforme moderne.
@@ -80,23 +96,13 @@ class Experience extends Component {
                                     <h3>Technologie</h3>
                                 
                                                                    
-                                    ReactJs, NextJs, NodeJs, ExpressJs, MySQL, AWS (Amazon Web Service), Bootstrap, Github                               
+                                    ReactJs, NextJs, NodeJs, ExpressJs, MySQL, AWS (Amazon Web Service), Bootstrap, Github
+                                                             
                                 
-                            </Col>
-                        </Row>
+                            </Col>                            
+                        </Row>                        
                     </Container>
-
-                    <Container fluid className="Experience-Bloc1">
-                        <Row>
-                            <Col>
-                                <h2>Tache en Cours :  </h2>
-                                <img src={Era_auto} width="50%" />
-                            </Col>
-                            <Col>
-                                À la fin de mon stage, la société <b>6solution </b>  m’a contacté pour aouter la fonctionnalité multi-langue à la plateforme russe Era - auto . Je suis très honoré de leur confiance.
-                            </Col>
-                        </Row>
-                    </Container>
+                    <p className="add_line"/>                      
 
                     <Container fluid className="Experience-Bloc1">
                         <Row>
@@ -106,7 +112,7 @@ class Experience extends Component {
                                 Janvier à Février 2020              
                             </Col>
                             <Col>
-                                Projet en groupe. Amélioration d’une plateforme web de gestion de projet. <br/>
+                            <b> Projet en groupe à l'université </b> <br/>  Amélioration d’une plateforme web de gestion de projet. <br/>
                                 <i>Mulhouse - France</i>
                                 
                                 <h3>Taches Réalisé</h3>
@@ -135,6 +141,9 @@ class Experience extends Component {
                         </Row>
                     </Container>
 
+                    <p className="add_line"/> 
+
+
                     <Container fluid className="Experience-Bloc1">
                         <Row>
                             <Col>
@@ -143,7 +152,7 @@ class Experience extends Component {
                                 Novembre à Décembre 2019             
                             </Col>
                             <Col>
-                                Projet en groupe. Amélioration d’une plateforme web de la gestion de la présence des étudiants. <br/>
+                                <b> Projet en groupe à l'université </b> <br/> Amélioration d’une plateforme web de la gestion de la présence des étudiants. <br/>
                                 <i>Mulhouse - France</i>
                                 
                                 <h3>Taches Réalisé</h3>
@@ -169,16 +178,20 @@ class Experience extends Component {
                         </Row>
                     </Container>
 
+                    <p className="add_line"/> 
+
                     <Container fluid className="Experience-Bloc1">
                         <Row>
                             <Col>
-                                <img src={Six_solution} width="50%" />
+                                <a href="https://6solutions.com/"><img src={Six_solution} width="50%" /> </a> <br/>
+                                Mars à Septembre 2019
                             </Col>
                             <Col>
-                                Stage de 6 mois de  <b>Mars à Septembre 2019</b> <br/>
-                                <i>Meknes - Maroc</i>
+                                Stage de 6 mois  <br/>
+                                
 
-                                Projet d’une plateforme web de gestion de rendezvous médicaux.
+                                Projet d’une plateforme web de gestion de <b>rendez-vous médicaux. </b>  <br/>
+                                <i>Meknes - Maroc</i>
 
                                 <h3>Taches Réalisé</h3>
 

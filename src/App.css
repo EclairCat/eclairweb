@@ -3,7 +3,7 @@
 }
 
 .App-header {
-  background-color:rgb(95, 129, 145);
+  background-color:rgb(211, 171, 139);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -96,8 +96,12 @@
 /* PAGE ACCEUIL */
 
 .img_Acceuil {
-  width : 400px;
+  width : 40vh;
   padding: 25px;
+}
+
+.font_style{
+  font-style: italic ;
 }
 
 .Acceuil_cellule1 {
