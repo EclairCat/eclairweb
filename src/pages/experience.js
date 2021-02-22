@@ -31,7 +31,7 @@ class Experience extends Component {
             <div className="App-Bg">
                 <Container fluid className="Experience-Bloc1">
                     <Row className="Title">
-                        <Col><h1>Mes Expériences Profesionelles</h1></Col>
+                        <Col><h1>Mes Expériences Professionnelles</h1></Col>
                     </Row>
 
 
@@ -42,7 +42,7 @@ class Experience extends Component {
                                 <a href="https://tyumen.era-auto.ru"><img src={Era_auto} width="50%" /> </a>
                             </Col>
                             <Col>
-                                À la fin de mon stage, la société <b>6solution </b>  m’a contacté pour aouter la fonctionnalité multi-langue à la plateforme russe Era - auto . Je suis très honoré de leur confiance.
+                                À la fin de mon stage, la société <b>6solution </b>  m’a contacté pour ajouter la fonctionnalité multi-langue à la plateforme russe Era - auto . Je suis très honoré de leur confiance.
                             </Col>
                         </Row>
                     </Container>
