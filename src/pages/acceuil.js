@@ -56,7 +56,7 @@ class Acceuil extends Component {
                 <Col> <b>Téléphone :</b> +33 7 60 06 41 68</Col>
               </Row>
               <Row>
-                <Col> <b>Status :</b> à la recherche d'une alternance pour <b>Septembre 2021</b>.</Col>
+                <Col> <b>Statut :</b> à la recherche d'une alternance pour <b>Septembre 2021</b>.</Col>
               </Row>
             </Col>
           </Row>          
